@@ -172,7 +172,7 @@ body {
 	color: #963;
 }
 
-.col-sm-3 {
+#item .col-sm-4 {
 	padding: -15px 15px 0 15px;
 	text-align: center;
 }
@@ -279,4 +279,17 @@ body {
 	height: 1000px; border-radius: 10px; 
 	background-color: white; 
 	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-sm-1 {
+	height: 4px;
+}
+
+.icon-footer {
+	font-size: 50px;
+}
+
+.icon-footer a:hover,
+.icon-footer a:focus {
+	text-decoration: none;
 }
