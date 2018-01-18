@@ -287,9 +287,36 @@ body {
 
 .icon-footer {
 	font-size: 50px;
+	text-align: center;
 }
 
 .icon-footer a:hover,
 .icon-footer a:focus {
 	text-decoration: none;
+}
+
+#banner-contact {
+	position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.footer-bg {
+	background-image: url(../Photo/footer-bg.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.copy-right {
+	color: rgb(173, 162, 156);
+	font-size: 13px;
+	font-style: italic;
 }
