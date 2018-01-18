@@ -20,7 +20,7 @@
 .bg-2 {
 	background-image: url('../Photo/background-02.jpg');
 	/*background-repeat: no-repeat;*/
-	/*background-size: cover;*/	
+	/*background-size: cover;*/
 	background-attachment: fixed;
 }
 
@@ -186,7 +186,7 @@ body {
 	font-size: 30px;
 	border-radius: 100%;
 	padding: 25px;
-	margin-top: -50px;	
+	margin-top: -50px;
 	border: 6px solid;
 	color: #666;
 	background-color: white;
@@ -276,8 +276,8 @@ body {
 }
 
 .page-body {
-	height: 1000px; border-radius: 10px; 
-	background-color: white; 
+	border-radius: 10px; 
+	background-color: white;
 	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
