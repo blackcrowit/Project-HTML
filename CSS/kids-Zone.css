@@ -306,6 +306,15 @@ body {
     text-align: center;
 }
 
+#icon-contact {
+	background-color: #E8F6F6;
+	padding: 50px 0 40px 0;
+}
+
+#icon-contact a:hover {
+	text-decoration: none;
+}
+
 .centered {
     position: absolute;
     top: 50%;

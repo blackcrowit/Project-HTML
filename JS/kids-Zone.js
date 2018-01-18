@@ -1,4 +1,4 @@
-new WOW().init();
+
 
 $(document).ready(function(){
     $(window).scroll(function(){

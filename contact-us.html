@@ -8,12 +8,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
-  <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="CSS/kids-Zone.css">
 </head>
-<body>
+<body style="background-color: #963">
 
 <!-- Menu bar -->
 <nav class="navbar navbar-default navbar-fixed-top box-shadow" id="main-navbar">
@@ -93,22 +92,55 @@
     <img src="Photo/contact-banner.jpg" alt="" width="100%">
     <div class="centered">Contact Us</div>
 </div>
-<div class="row" style="background-color: #E8F6F6">
-  <br/>
+<div class="row" id="icon-contact">
   <div class="container">
     <div class="col-sm-4">      
-      <p><i class="fa fa-map-marker" style="font-size: 40px; color: #c00; text-align: center;"></i> 8th, Ton That Thuyet, Tu Liem<br/><span style="font-size: 18px; font-weight: bold;">Hanoi, Viet Nam</span></p>
+      <p><i class="fa fa-map-marker" style="font-size: 40px; color: #c00; text-align: center;"> </i> 8th, Ton That Thuyet, Tu Liem<br/><span style="font-size: 18px; font-weight: bold;">Hanoi, Viet Nam</span></p>
     </div>
     <div class="col-sm-4">
-      <p><i class="fa fa-phone" style="font-size: 40px; color: #0c0; text-align:  center;"></i> Phone Number<br/><span style="font-size: 18px; font-weight: bold;">+84 1633 333 549</span></p>
+      <p><i class="fa fa-phone" style="font-size: 40px; color: #0c0; text-align:  center;"> </i> &nbsp; Phone Number<br/><span style="font-size: 18px; font-weight: bold;">+84 1633 333 549</span></p>
     </div>
     <div class="col-sm-4">
-      <a href="mailto:quanghungleo@gmail.com"><i class="fa fa-envelope" style="font-size: 40px; color: #fc0; text-align:  center;"></i> Email<br/><span style="font-size: 18px; font-weight: bold;">quanghungleo@gmail.com</span></a>
+      <a href="mailto:quanghungleo@gmail.com" style="color: black"><i class="fa fa-envelope" style="font-size: 40px; color: #fc0; text-align:  center;"> </i> &nbsp; Email<br/><span style="font-size: 18px; font-weight: bold;">quanghungleo@gmail.com</span></a>
     </div>
   </div>
 </div>
-<br/><br/><br/><br/><br/><br/>
-<div id="Map" style="width: 100%; height: 400px;">
+<br/><br/>
+
+<br/>
+<div class="row">
+  <div class="container-fluid">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6 page-body" style="background-color: #FDF8F4; color: black; border-radius: 0;">
+      <br/>
+      <div class="row" style="text-align: center;">
+        <p style="font-size: 50px;">How Can We <b>Help You?</b></p>
+      </div>
+      <br/>
+      <div style="width: 400px; margin: auto">
+        <div class="form-group">
+          <label for="usr">Your Name:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="mail">Your Email:</label>
+          <input type="email" class="form-control" id="mail">
+        </div>
+        <div class="form-group">
+          <label for="mess">Message:</label>
+          <textarea class="form-control" rows="5" id="mess"></textarea>
+        </div>
+        <button class="btn btn-danger" style="width: 100%">Send Message</button>
+      </div>
+      <br/><br/><Br/>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+</div>
+<br/><br/>
+
+<br/><br/>
+<div id="Map" style="width: 100%; height: 500px;">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0968316750327!2d105.77953661490476!3d21.02881118599843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b3260b1a8b%3A0x862052392e3f478e!2zOCBUw7RuIFRo4bqldCBUaHV54bq_dCwgTeG7uSDEkMOsbmggMiwgVOG7qyBMacOqbSwgSMOgIE7hu5lpIDEwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1516248559018" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 <div class="row" style="height: 4px;">
@@ -128,7 +160,6 @@
 <div class="row footer-bg">
     <div class="container-fluid icon-footer">
       <br/><p style="font-size: 60px; font-weight: bold;">Kids Zone</p>
-      
       <a class="fa fa-facebook-square" aria-hidden="true" style="color: #4267b2" href="fb.com"></a>
       <a class="fa fa-twitter-square" aria-hidden="true" style="color: #1da1f2" href="https://twitter.com/?lang=vi"></a>
       <a class="fa fa-instagram" aria-hidden="true" style="color: #f39" href="#"></a>
