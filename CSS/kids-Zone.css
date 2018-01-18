@@ -325,7 +325,6 @@ body {
   font-style: oblique;
   text-align: center;
   font-size: 400%;
-  color:
 }
 
 .img-hover:hover {
@@ -338,6 +337,7 @@ body {
 }
 
 .img-hover {
+  border-radius: 5px;
   border: 1px solid black;
   box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
 }
