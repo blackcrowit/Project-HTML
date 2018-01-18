@@ -19,7 +19,8 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-     $('body').scrollspy({target: ".navbar", offset: 50}); 
+
+$('body').scrollspy({target: ".navbar", offset: 50}); 
   // Add smooth scrolling to all links
   $("#item a").on('click', function(event) {
 

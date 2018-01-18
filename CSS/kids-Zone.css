@@ -293,6 +293,12 @@ body {
 .icon-footer a:hover,
 .icon-footer a:focus {
 	text-decoration: none;
+	-webkit-transform:scale(1.5);
+  -moz-transform:scale(1.5);
+  -ms-transform:scale(1.5);
+  -o-transform:scale(1.5);
+  transform:scale(1.5);
+  transition: 0.3s;
 }
 
 #banner-contact {
@@ -321,6 +327,8 @@ body {
 	font-style: italic;
 }
 
+
+/*Animal Page*/
 .title {
   font-style: oblique;
   text-align: center;
