@@ -337,7 +337,7 @@ body {
 }
 
 .img-hover {
-  border-radius: 5px;
+  border-radius: 6px;
   border: 1px solid black;
   box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
 }
