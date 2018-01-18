@@ -276,7 +276,7 @@ body {
 }
 
 .page-body {
-	border-radius: 10px; 
+	border-radius: 10px;
 	background-color: white;
 	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -319,4 +319,19 @@ body {
 	color: rgb(173, 162, 156);
 	font-size: 9.5px;
 	font-style: italic;
+}
+
+.title {
+  text-align: center;
+  font-size: 400%;
+  color:
+}
+
+.img-hover:hover {
+  -webkit-transform:scale(1.25);
+  -moz-transform:scale(1.25);
+  -ms-transform:scale(1.25);
+  -o-transform:scale(1.25);
+  transform:scale(1.25);
+  transition: 0.5s;
 }
