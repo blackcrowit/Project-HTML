@@ -322,16 +322,22 @@ body {
 }
 
 .title {
+  font-style: oblique;
   text-align: center;
   font-size: 400%;
   color:
 }
 
 .img-hover:hover {
-  -webkit-transform:scale(1.25);
-  -moz-transform:scale(1.25);
-  -ms-transform:scale(1.25);
-  -o-transform:scale(1.25);
-  transform:scale(1.25);
+  -webkit-transform:scale(1.17);
+  -moz-transform:scale(1.17);
+  -ms-transform:scale(1.17);
+  -o-transform:scale(1.17);
+  transform:scale(1.17);
   transition: 0.5s;
+}
+
+.img-hover {
+  border: 1px solid black;
+  box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
 }
