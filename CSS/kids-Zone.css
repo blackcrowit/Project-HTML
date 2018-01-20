@@ -83,13 +83,10 @@ body {
 }
 
 #main-navbar {
-
-    /*all the color changing function will be done slowly */
-    -webkit-transition: background-color 0.6s, padding 1s;
-    -moz-transition: background-color 0.6s, padding 1s;
-    -o-transition: background-color 0.6s, padding 1s;
+    -webkit-transition: background-color 0.6s, padding 1s, box-shadow 0.6s;
+    -moz-transition: background-color 0.6s, padding 1s, box-shadow 0.6s;
+    -o-transition: background-color 0.6s, padding 1s, box-shadow 0.6s;
     transition: background-color 0.6s, padding 1s, box-shadow 0.6s;
-    /*all the color changing function will be done slowly */
 }
 
 /*h1 {
