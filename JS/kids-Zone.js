@@ -24,3 +24,4 @@ function myFunction() {
         document.getElementById("main-navbar").className = "navbar navbar-default navbar-fixed-top box-shadow";
     }
 }
+

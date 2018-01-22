@@ -22,14 +22,7 @@
      background-size: cover;
      background-attachment: fixed;
 }
- .bg-2 {
-     background-image: url('../Photo/background-02.jpg');
-    /*background-repeat: no-repeat;
-    */
-    /*background-size: cover;
-    */
-     background-attachment: fixed;
-}
+
  .bg-3 {
      background-image: url('../Photo/background-03.jpg');
      background-repeat: no-repeat;
@@ -103,7 +96,6 @@
 }
  .navbar-default .navbar-nav > li:hover b {
      width: 100%;
-     transition: 0.6s;
 }
  .bg-color-1 {
      background-color: #f0c24b;
@@ -164,34 +156,36 @@
      color: #666;
      background-color: white;
 }
+
+.row#item .item-icon#item-icon-1,
+.row#item .item-icon#item-icon-2,
+.row#item .item-icon#item-icon-3 {
+     -webkit-transition: color 0.5s linear;
+     -moz-transition: color 0.5s linear;
+     -o-transition: color 0.5s linear;
+     transition: color 0.5s linear;
+}
+
+
  .row#item .item-icon#item-icon-1 {
      border-color: #f0c24b;
 }
  .row#item a:hover .item-icon#item-icon-1 {
      color: #f0c24b;
-     transition: color 0.6s linear;
 }
  .row#item .item-icon#item-icon-2 {
      border-color: #b5d56a;
 }
  .row#item a:hover .item-icon#item-icon-2 {
      color: #b5d56a;
-     transition: color 0.6s linear;
 }
  .row#item .item-icon#item-icon-3 {
      border-color: #ea7066;
 }
  .row#item a:hover .item-icon#item-icon-3 {
      color: #ea7066;
-     transition: color 0.6s linear;
 }
- .row#item .item-icon#item-icon-4 {
-     border-color: #84bed6;
-}
- .row#item a:hover .item-icon#item-icon-4 {
-     color: #84bed6;
-     transition: color 0.6s linear;
-}
+
  .row#item .item-text {
      font-size: 32px;
      color: white;
@@ -204,29 +198,40 @@
  .row#item a:hover, .row#item a:active, .row#item a:focus {
      text-decoration:none;
 }
+
+ .row#item a .box-shadow{
+     -webkit-transition: box-shadow 0.5s linear;
+     -moz-transition: box-shadow 0.5s linear;
+     -o-transition: box-shadow 0.5s linear;
+     transition: box-shadow 0.5s linear;
+ }
  .row#item a:hover .box-shadow {
      box-shadow: 0 4px 0 rgba(0,0,0,.2);
-     transition: box-shadow 1s linear;
 }
  #btn-down {
      font-size: 30px;
      color: transparent;
+     -webkit-transition: color 0.5s linear;
+     -moz-transition: color 0.5s linear;
+     -o-transition: color 0.5s linear;
+     transition: color 0.5s linear;
 }
  .row#item a:hover #btn-down {
      color: #666;
-     -webkit-transition: color 1s linear;
-     -moz-transition: color 1s linear;
-     -o-transition: color 1s linear;
-     transition: color 1s linear;
 }
  .header-text {
      color: white;
      font-size: 50px;
      font-weight: bold;
 }
- .panel-group:hover {
+
+.panel-group {  
+     transition: 0.3s;
+     border-radius: 0;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-     transition: box-shadow 0.3s;
+}
+
+ .panel-group:hover {
 }
  #game a, #game a:hover, #game a:focus {
      text-decoration: none;
@@ -243,6 +248,10 @@
      font-size: 50px;
      text-align: center;
 }
+ .icon-footer a {
+     transition: 0.3s;
+ }
+
  .icon-footer a:hover, .icon-footer a:focus {
      text-decoration: none;
      -webkit-transform:scale(1.5);
@@ -250,7 +259,6 @@
      -ms-transform:scale(1.5);
      -o-transform:scale(1.5);
      transform:scale(1.5);
-     transition: 0.3s;
 }
  #banner-contact {
      position: relative;
@@ -293,11 +301,40 @@
      -ms-transform:scale(1.17);
      -o-transform:scale(1.17);
      transform:scale(1.17);
-     transition: 0.5s;
 }
  .img-hover {
+     transition: 0.5s;
      border-radius: 6px;
      border: 1px solid black;
      box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
 }
- 
+
+li { list-style-type:none;}
+
+ul.thumbnails { 
+    margin-bottom: 0px;
+}
+
+h4 {
+    line-height: 0.88rem;
+    color: #000;
+}
+
+.thumbnails li b {
+     display: block;
+     bottom: -10px;
+     z-index: 3;
+     width: 0%;
+     height: 2px;
+     transition: .5s;
+     left: 0;
+     background-color: black;
+}
+
+.thumbnails li:hover b {
+     width: 100%;
+}
+
+.thumbnail:hover {
+     box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
+}
