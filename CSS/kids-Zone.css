@@ -235,7 +235,7 @@
      font-weight: bold;
 }
 
-.panel-group {  
+.panel-group {
      transition: 0.3s;
      border-radius: 0;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -251,7 +251,7 @@
 
 li { list-style-type:none;}
 
-ul.thumbnails { 
+ul.thumbnails {
     margin-bottom: 0px;
 }
 
@@ -284,7 +284,7 @@ h4 {
 }
 
 .game-hover:hover{
-     
+
 }
 
  .page-body {
@@ -368,10 +368,10 @@ h4 {
      margin:0 auto;
      position:fixed;
      bottom:20px;
-     right:10px;   
+     right:10px;
 }
 .scroll {
-     border-radius: 100%; 
+     border-radius: 100%;
      position:absolute;
      right:20px;
      bottom:20px;
@@ -384,14 +384,14 @@ h4 {
      transition: 0.5s;
      -moz-transition: 0.5s;
      -webkit-transition: 0.5s;
-     -o-transition: 0.5s;          
+     -o-transition: 0.5s;
 }
 .scroll:hover {
      background:rgba(178,178,178,1.0);
      transition: 0.5s;
      -moz-transition: 0.5s;
      -webkit-transition: 0.5s;
-     -o-transition: 0.5s;          
+     -o-transition: 0.5s;
 }
 .scroll:hover .fa {
      padding-top:-10px;
@@ -403,5 +403,10 @@ h4 {
      transition: 0.5s;
      -moz-transition: 0.5s;
      -webkit-transition: 0.5s;
-     -o-transition: 0.5s;     
+     -o-transition: 0.5s;
+}
+
+.color-component {
+  height: 400px;
+  border-radius: 0px;
 }
