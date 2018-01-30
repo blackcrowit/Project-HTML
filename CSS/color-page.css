@@ -7,10 +7,58 @@
 	cursor: pointer;
 }
 
+.color .col-sm-2:hover .text-pencil-blue {
+	color: Blue;
+}
+
+.color .col-sm-2:hover .text-pencil-cyan {
+	color: Cyan;
+}
+
+.color .col-sm-2:hover .text-pencil-green {
+	color: Green;
+}
+
+.color .col-sm-2:hover .text-pencil-yellow {
+	color: Yellow;
+}
+
+.color .col-sm-2:hover .text-pencil-red {
+	color: Red;
+}
+
+.color .col-sm-2:hover .text-pencil-magenta {
+	color: Magenta;
+}
+
+.color .col-sm-2:hover .text-pencil-purple {
+	color: Purple;
+}
+
+.color .col-sm-2:hover .text-pencil-orange {
+	color: Orange;
+}
+
+.color .col-sm-2:hover .text-pencil-black {
+	color: #545454;
+}
+
+.color .col-sm-2:hover .text-pencil-white {
+	color: #d3d3d3;
+}
+
+.color .col-sm-2:hover .text-pencil-pink {
+	color: Pink;
+}
+
+.color .col-sm-2:hover .text-pencil-brown {
+	color: Brown;
+}
 .text-pencil {
 	text-align: center;
 	font-size: 200%;
 	font-weight: bold;
+	transition: .6s;
 }
 
 .list-img img {
