@@ -279,12 +279,41 @@ h4 {
      box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
 }
 
-.game-hover {
+.game-hover img{
      transition: 1s;
+     border-radius: 5px;
 }
 
-.game-hover:hover{
-     
+.game-hover:hover .overlay-game{
+     bottom: 0;
+  height: 100%;
+}
+
+.overlay-game {
+     border-radius: 5px;
+     margin:auto;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, #fb6b47 0%, #abcd52 100%);
+  opacity: .7;
+  overflow: hidden;
+  width: 90%;
+  height:0;
+  transition: .5s ease;
+}
+
+.text-game {
+     color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
 }
 
  .page-body {
@@ -404,4 +433,58 @@ h4 {
      -moz-transition: 0.5s;
      -webkit-transition: 0.5s;
      -o-transition: 0.5s;     
+}
+
+
+/*Vegetable Page*/
+.title {
+  font-style: oblique;
+  text-align: center;
+  font-size: 400%;
+}
+
+.img-hover:hover {
+  -webkit-transform:scale(1.17);
+  -moz-transform:scale(1.17);
+  -ms-transform:scale(1.17);
+  -o-transform:scale(1.17);
+  transform:scale(1.17);
+  transition: 0.5s;
+}
+
+.img-hover {
+  border-radius: 6px;
+  border: 1px solid black;
+  box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
+}
+.panel-heading{
+     height: 50px;
+     text-align: center;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif ;
+     font-size: 30px;
+     font-weight: bold;
+}
+audio{
+     width: 300px;
+}
+
+.panel{
+     border-radius: 10px;
+}
+div#bg{position:fixed;
+     top:0;
+     left:0;
+     width:100%;
+     height:100%;
+     z-index:-1;}
+
+.container {
+
+     padding-left: 5px;
+     margin-right: auto;
+     margin-left: auto;
+}
+.panel {
+     margin-bottom: 20px;
+     background-color: #fff;
 }
