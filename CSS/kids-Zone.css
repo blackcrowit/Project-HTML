@@ -35,13 +35,19 @@
      background-size: cover;
      background-attachment: fixed;
 }
+
  body {
      font-family: 'Andika';
      -webkit-user-select: none; /* Safari 3.1+ */
     -moz-user-select: none; /* Firefox 2+ */
     -ms-user-select: none; /* IE 10+ */
     user-select: none; /* Standard syntax */
+    background-image: url(../Photo/51.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 .test {
      padding: 0 5% 0 5%;
 }
@@ -86,15 +92,7 @@
      -o-transition: background-color 0.6s, padding 1s, box-shadow 0.6s;
      transition: background-color 0.6s, padding 1s, box-shadow 0.6s;
 }
-/*h1 {
-     font-size: 72px;
-     background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-     background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-     color:transparent;
-     -webkit-background-clip: text;
-     background-clip: text;
-}
- */
+
  .navbar-default .navbar-nav > li b {
      display: block;
      bottom: -10px;
@@ -316,7 +314,7 @@ h4 {
   display: none;
 }
 
- .page-body {
+.page-body {
      border-radius: 10px;
      background-color: white;
      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -358,6 +356,20 @@ h4 {
      transform: translate(-50%, -50%);
      font-size: 60px;
 }
+
+
+.footer {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.container-footer {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
  .footer-bg {
      background-image: url(../Photo/footer-bg.jpg);
      background-size: auto;
@@ -371,7 +383,6 @@ h4 {
 }
 /*Animal Page*/
  .title {
-     font-style: oblique;
      text-align: center;
      font-size: 400%;
 }
@@ -437,11 +448,7 @@ h4 {
 
 
 /*Vegetable Page*/
-.title {
-  font-style: oblique;
-  text-align: center;
-  font-size: 400%;
-}
+
 
 .img-hover:hover {
   -webkit-transform:scale(1.17);

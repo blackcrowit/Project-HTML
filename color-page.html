@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="CSS/color-page.css">
 
 </head>
-<body style="background-color: #a597e7">
+<body>
 
 <!-- Menu bar -->
 <nav class="navbar navbar-default navbar-fixed-top box-shadow" id="main-navbar">
@@ -99,81 +99,119 @@
     <br/><br/>
     <div class="row color">
       <div class="container-fluid">
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playBlue()">
           <img src="Photo/Blue.png" alt="Blue" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-blue">Blue</p>
         </div>
+        <audio id="myBlue">
+          <source src="Photo/sound-color/blue.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playCyan()">
           <img src="Photo/Cyan.png" alt="Cyan" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-cyan">Cyan</p>
         </div>
+        <audio id="myCyan">
+          <source src="Photo/sound-color/cyan.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playGreen()">
           <img src="Photo/Green.png" alt="Green" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-green">Green</p>
         </div>
+        <audio id="myGreen">
+          <source src="Photo/sound-color/green.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playYellow()">
           <img src="Photo/Yellow.png" alt="Yellow" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-yellow">Yellow</p>
         </div>
+        <audio id="myYellow">
+          <source src="Photo/sound-color/yellow.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playRed()">
           <img src="Photo/Red.png" alt="Red" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-red">Red</p>
         </div>
+        <audio id="myRed">
+          <source src="Photo/sound-color/red.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playMagenta()">
           <img src="Photo/Magenta.png" alt="Magenta" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-magenta">Magenta</p>
         </div>
+        <audio id="myMagenta">
+          <source src="Photo/sound-color/magenta.mp3" type="audio/mpeg">
+        </audio>
+
       </div>
     </div>
 <br/>
     <div class="row color">
       <div class="container-fluid">
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playPurple()">
           <img src="Photo/Purple.png" alt="Purple" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-purple">Purple</p>
         </div>
+        <audio id="myPurple">
+          <source src="Photo/sound-color/purple.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playOrange()">
           <img src="Photo/Orange.png" alt="Orange" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-orange">Orange</p>
         </div>
+        <audio id="myOrange">
+          <source src="Photo/sound-color/orange.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playBlack()">
           <img src="Photo/Black.png" alt="Black" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-black">Black</p>
         </div>
+        <audio id="myBlack">
+          <source src="Photo/sound-color/black.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playWhite()">
           <img src="Photo/White.png" alt="White" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-white">White</p>
         </div>
+        <audio id="myWhite">
+          <source src="Photo/sound-color/white.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playPink()">
           <img src="Photo/Pink.png" alt="Pink" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-pink">Pink</p>
         </div>
+        <audio id="myPink">
+          <source src="Photo/sound-color/pink.mp3" type="audio/mpeg">
+        </audio>
 
-        <div class="col-sm-2">
+        <div class="col-sm-2" onclick="playBrown()">
           <img src="Photo/Brown.png" alt="Brown" width="100%" class="pencil">
           <br/>
           <p class="text-pencil text-pencil-brown">Brown</p>
         </div>
+        <audio id="myBrown">
+          <source src="Photo/sound-color/brown.mp3" type="audio/mpeg">
+        </audio>
+
       </div>
     </div>
     <br/>
@@ -181,9 +219,10 @@
   </div>
 </div>
 <br/><br/><br/><br/><br/><br/>
-<div class="row" id="footer">
-  <div style="background-color: #191919;">
-    <div class="container" style="color: white; padding: 20px 0 20px 0; line-height: 24px; text-align: right;">© 2018 Copyright Kids Zone by Black Crow.</div>
+<div class="container-footer">
+<img src="Photo/222.png" alt="" width="100%">
+  <div>
+    <div class="footer">© 2018 Copyright Kids Zone by Black Crow.</div>
   </div>
 </div>
 </body>

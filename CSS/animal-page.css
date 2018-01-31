@@ -1,5 +1,7 @@
+
 .container-animal {
   position: relative;
+  transition: .5s;
 }
 
 .image-animal {
@@ -46,3 +48,9 @@
 .text-animal div {
 	cursor: pointer;
 }
+
+.container-animal:hover {
+	border-radius: 5px;
+}
+
+.container-animal:hover img 
