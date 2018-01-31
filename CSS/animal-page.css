@@ -48,9 +48,3 @@
 .text-animal div {
 	cursor: pointer;
 }
-
-.container-animal:hover {
-	border-radius: 5px;
-}
-
-.container-animal:hover img 

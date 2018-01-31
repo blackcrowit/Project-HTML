@@ -1,0 +1,19 @@
+.bg-9{
+    padding-left: 180px;
+}
+
+img{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.col-sm-12{
+ margin-left: 50px;
+}
+.col-sm-6{
+    padding-bottom: 20px;
+}
+
+.col-sm-6 img:hover {
+	cursor: pointer;
+}
