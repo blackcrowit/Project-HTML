@@ -1,3 +1,11 @@
 .panel img{
     width: 60%;
 }
+
+audio {
+	width: 100%;
+}
+
+.col-sm-4 .panel-body:hover {
+	cursor: pointer;
+}
