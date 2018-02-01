@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="CSS/kids-Zone.css">
-
+  <link rel="stylesheet" href="CSS/css-vegetable.css">
 </head>
 <body >
 <div id="bg"><img width="100%" height="100%" src="./Photo/51.jpg" /></div>
@@ -102,11 +102,11 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Beans</div>
-        <div class="panel-body"><img src="./Photo/beans.png" class="img-responsive" style="width:60%" alt="Image">
+        <div class="panel-body" style="text-align: center" onclick="playq1()"><img src="./Photo/beans.png" width="60%">
 
         </div>
         <div class="panel-footer">
-          <audio controls>
+          <audio id="myq1">
           <source src="./Photo/am/beans.mp3" type="audio/mpeg">
           </audio>
         </div>
@@ -115,8 +115,9 @@
     <div class="col-sm-4">
       <div class="panel panel-danger">
         <div class="panel-heading">Redchilies</div>
-        <div class="panel-body"><img src="./Photo/redchilies.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">  <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq2()"><img src="./Photo/redchilies.png" width="60%"></div>
+        <div class="panel-footer">
+          <audio id="myq2">
           <source src="./Photo/am/redchilies.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -124,8 +125,9 @@
     <div class="col-sm-4">
       <div class="panel panel-success">
         <div class="panel-heading">Beetroot</div>
-        <div class="panel-body"><img src="./Photo/beetroot.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body"style="text-align: center" onclick="playq3()"><img src="./Photo/beetroot.png"  width="60%"></div>
+        <div class="panel-footer">
+          <audio id="myq3">
           <source src="./Photo/am/beetroot.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -138,8 +140,9 @@
     <div class="col-sm-4">
       <div class="panel panel-info">
         <div class="panel-heading">Spinach</div>
-        <div class="panel-body"><img src="./Photo/spinach.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq4()"><img src="./Photo/spinach.png"  ></div>
+        <div class="panel-footer">
+          <audio id="myq4">
           <source src="./Photo/am/spinach.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -147,8 +150,9 @@
     <div class="col-sm-4">
       <div class="panel panel-warning">
         <div class="panel-heading">Frenchbeans</div>
-        <div class="panel-body"><img src="./Photo/Frenchbeans.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq5()"><img src="./Photo/Frenchbeans.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq5">
           <source src="./Photo/am/Frenchbeans.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -156,8 +160,9 @@
     <div class="col-sm-4">
       <div class="panel panel-default ">
         <div class="panel-heading">Greenpepper</div>
-        <div class="panel-body"><img src="./Photo/greenpepper.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq6()"><img src="./Photo/greenpepper.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq6">
           <source src="./Photo/am/greenpepper.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -165,8 +170,9 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Celery</div>
-        <div class="panel-body"><img src="./Photo/celery.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq7()"><img src="./Photo/celery.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq7">
           <source src="./Photo/am/celery.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -174,8 +180,9 @@
     <div class="col-sm-4">
       <div class="panel panel-danger">
         <div class="panel-heading">Asparagus</div>
-        <div class="panel-body"><img src="./Photo/asparagus.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq8()"><img src="./Photo/asparagus.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq8">
           <source src="./Photo/am/asparagus.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -183,8 +190,9 @@
     <div class="col-sm-4">
       <div class="panel panel-success">
         <div class="panel-heading">Peas</div>
-        <div class="panel-body"><img src="./Photo/peas.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq9()"><img src="./Photo/peas.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq9">
           <source src="./Photo/am/peas.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -192,8 +200,9 @@
     <div class="col-sm-4">
       <div class="panel panel-info">
         <div class="panel-heading">Radish</div>
-        <div class="panel-body"><img src="./Photo/radish.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq10()"><img src="./Photo/radish.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq10">
           <source src="./Photo/am/radish.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -201,8 +210,9 @@
     <div class="col-sm-4">
       <div class="panel panel-danger">
         <div class="panel-heading">Lettuce</div>
-        <div class="panel-body"><img src="./Photo/lettuce.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq11()"><img src="./Photo/lettuce.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq11">
           <source src="./Photo/am/lettuce.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -210,8 +220,9 @@
     <div class="col-sm-4">
       <div class="panel panel-warning">
         <div class="panel-heading">Onions</div>
-        <div class="panel-body"><img src="./Photo/onions.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq12()"><img src="./Photo/onions.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq12">
           <source src="./Photo/am/onions.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -220,8 +231,9 @@
     <div class="col-sm-4">
       <div class="panel panel-danger">
         <div class="panel-heading">Courgette</div>
-        <div class="panel-body"><img src="./Photo/courgette.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq13()"><img src="./Photo/courgette.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq13">
           <source src="./Photo/am/courgette.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -229,8 +241,9 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Turnip</div>
-        <div class="panel-body"><img src="./Photo/turnip.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq14()"><img src="./Photo/turnip.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq14">
           <source src="./Photo/am/turnip.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -238,8 +251,9 @@
     <div class="col-sm-4">
       <div class="panel panel-info">
         <div class="panel-heading" >Potatoes</div>
-        <div class="panel-body"><img src="./Photo/potatoes.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq15()"><img src="./Photo/potatoes.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq15">
           <source src="./Photo/am/potatoes.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -247,8 +261,9 @@
     <div class="col-sm-4">
       <div class="panel panel-danger">
         <div class="panel-heading">Eggplant</div>
-        <div class="panel-body"><img src="./Photo/eggplant.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq16()"><img src="./Photo/eggplant.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq16">
           <source src="./Photo/am/eggplant.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -256,8 +271,9 @@
     <div class="col-sm-4">
       <div class="panel panel-default">
         <div class="panel-heading">Cabbage</div>
-        <div class="panel-body"><img src="./Photo/cabbage.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq17()"><img src="./Photo/cabbage.png"></div>
+        <div class="panel-footer">
+          <audio id="myq17">
           <source src="./Photo/am/cabbage.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -265,8 +281,9 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Pumpkin</div>
-        <div class="panel-body"><img src="./Photo/pumpkin.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq18()"><img src="./Photo/pumpkin.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq18">
           <source src="./Photo/am/pumpkin.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -274,8 +291,9 @@
     <div class="col-sm-4">
       <div class="panel panel-danger">
         <div class="panel-heading">Brusselssprouts</div>
-        <div class="panel-body"><img src="./Photo/brusselssprouts.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq19()"><img src="./Photo/brusselssprouts.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq19">
           <source src="./Photo/am/brusselssprouts.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -283,8 +301,9 @@
     <div class="col-sm-4">
       <div class="panel panel-info">
         <div class="panel-heading">Carrot</div>
-        <div class="panel-body"><img src="./Photo/carrot.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq20()"><img src="./Photo/carrot.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq20">
           <source src="./Photo/am/carrot.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -292,8 +311,9 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Swede</div>
-        <div class="panel-body"><img src="./Photo/swede.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq21()"><img src="./Photo/swede.png" width="60%"></div>
+        <div class="panel-footer">
+          <audio id="myq21">
           <source src="./Photo/am/swede.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -301,8 +321,9 @@
     <div class="col-sm-4">
       <div class="panel panel-danger">
         <div class="panel-heading">Tomatoes</div>
-        <div class="panel-body"><img src="./Photo/tomatoes.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq22()"><img src="./Photo/tomatoes.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq22">
           <source src="./Photo/am/tomatoes.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -310,8 +331,9 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Pineapple</div>
-        <div class="panel-body"><img src="./Photo/pineapple.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq23()"><img src="./Photo/pineapple.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq23">
           <source src="./Photo/am/pineapple.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -319,8 +341,9 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Capsicum</div>
-        <div class="panel-body"><img src="./Photo/capsicum.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq24()"><img src="./Photo/capsicum.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq24">
           <source src="./Photo/am/capsicum.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -328,8 +351,9 @@
     <div class="col-sm-4">
       <div class="panel panel-danger">
         <div class="panel-heading">Cucumber</div>
-        <div class="panel-body"><img src="./Photo/cucumber.png" class="img-responsive" style="width:60%" alt="Image"></div>
-        <div class="panel-footer">     <audio controls>
+        <div class="panel-body" style="text-align: center" onclick="playq25()"><img src="./Photo/cucumber.png" ></div>
+        <div class="panel-footer">
+          <audio id="myq25">
           <source src="./Photo/am/cucumber.mp3" type="audio/mpeg">
         </audio></div>
       </div>
@@ -337,14 +361,15 @@
   </div>
 </div>
   </div>
-</div>
-<br/>
+</div><br><br>
+<br/><br/><br/><br/><br/><br/>
 <div class="container-footer">
-<img src="Photo/time2.png" alt="" width="100%">
+<img src="Photo/222.png" alt="" width="100%">
   <div>
     <div class="footer">© 2018 Copyright Kids Zone by Black Crow.</div>
   </div>
 </div>
 </body>
+<script src="JS/js-vegetable.js"></script>
   <script src="JS/kids-Zone.js"></script>
 </html>
