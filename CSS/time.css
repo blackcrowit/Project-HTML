@@ -10,10 +10,16 @@ img{
 .col-sm-12{
  margin-left: 50px;
 }
-.col-sm-6{
+.col-sm-4{
     padding-bottom: 20px;
 }
 
-.col-sm-6 img:hover {
+.col-sm-4 img:hover {
 	cursor: pointer;
 }
+
+.col-sm-4 img {
+	width: 90%;
+}
+
+

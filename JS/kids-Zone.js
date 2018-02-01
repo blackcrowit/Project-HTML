@@ -18,7 +18,7 @@
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.getElementById("main-navbar").className = "navbar navbar-default navbar-fixed-top box-shadow test";
     } else {
         document.getElementById("main-navbar").className = "navbar navbar-default navbar-fixed-top box-shadow";
@@ -27,7 +27,7 @@ function myFunction() {
 
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 50 ) {
+    if ($(this).scrollTop() > 100 ) {
         $('.scrolltop:hidden').stop(true, true).fadeIn();
     } else {
         $('.scrolltop').stop(true, true).fadeOut();
