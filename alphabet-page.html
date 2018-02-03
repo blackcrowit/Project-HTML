@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="CSS/kids-Zone.css">
+  <link rel="stylesheet" href="CSS/alphabet-page.css">
+
 
 </head>
 <body>
@@ -40,7 +42,7 @@
         <a href="alphabet-page.html">
           <i class="material-icons bg-color-2">sort_by_alpha</i>
           <br/>
-          <span class="f-color-2">ALPHABET</span>
+          <span class="f-color-2">WORD</span>
         </a>
         <b class="bg-color-2"></b>
       </li>
@@ -93,62 +95,264 @@
 <div class="row">
   <div class="container page-body">
     <div class="row title">
-      <label> ALPHABET FOR KIDS </label>
+      <label> WORD FOR KIDS </label>
     </div>
-    <hr>
-    <div class="row">
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/A.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/B.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/C.jpg" width=100%></div>
+
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#alphabet">Alphabet A-Z</a></li>
+      <li><a data-toggle="tab" href="#number">Number 1-10</a></li>
+    </ul>
+    <br/>
+    <div class="tab-content">
+      <div id="alphabet" class="tab-pane fade in active">
+        <div class="row">
+
+          <div class="col-sm-3" onclick="playa1()"><img class="img-hover" src="./Photo/chu/1.png" width=100%></div>
+          <audio id="mya1">
+            <source src="./Photo/sound-alphabet/a.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa2()"><img class="img-hover" src="./Photo/chu/2.png" width=100%></div>
+          <audio id="mya2">
+            <source src="./Photo/sound-alphabet/b.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa3()"><img class="img-hover" src="./Photo/chu/3.png" width=100%></div>
+          <audio id="mya3">
+            <source src="./Photo/sound-alphabet/c.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa4()"><img class="img-hover" src="./Photo/chu/4.png" width=100%></div>
+          <audio id="mya4">
+            <source src="./Photo/sound-alphabet/d.mp3" type="audio/mpeg">
+          </audio>
+
+        </div>
+        <br>
+        <div class="row">
+
+          <div class="col-sm-3" onclick="playa5()"><img class="img-hover" src="./Photo/chu/5.png" width=100%></div>
+          <audio id="mya5">
+            <source src="./Photo/sound-alphabet/e.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa6()"><img class="img-hover" src="./Photo/chu/6.png" width=100%></div>
+          <audio id="mya6">
+            <source src="./Photo/sound-alphabet/f.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa7()"><img class="img-hover" src="./Photo/chu/7.png" width=100%></div>
+          <audio id="mya7">
+            <source src="./Photo/sound-alphabet/g.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa8()"><img class="img-hover" src="./Photo/chu/8.png" width=100%></div>
+          <audio id="mya8">
+            <source src="./Photo/sound-alphabet/h.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <br>
+        <div class="row">
+
+          <div class="col-sm-3" onclick="playa9()"><img class="img-hover" src="./Photo/chu/9.png" width=100%></div>
+          <audio id="mya9">
+            <source src="./Photo/sound-alphabet/i.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa10()"><img class="img-hover" src="./Photo/chu/10.png" width=100%></div>
+          <audio id="mya10">
+            <source src="./Photo/sound-alphabet/j.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa11()"><img class="img-hover" src="./Photo/chu/11.png" width=100%></div>
+          <audio id="mya11">
+            <source src="./Photo/sound-alphabet/k.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa12()"><img class="img-hover" src="./Photo/chu/12.png" width=100%></div>
+          <audio id="mya12">
+            <source src="./Photo/sound-alphabet/l.mp3" type="audio/mpeg">
+          </audio>
+
+        </div>
+        <br>
+
+        <div class="row">
+          <div class="col-sm-3" onclick="playa13()"><img class="img-hover" src="./Photo/chu/13.png" width=100%></div>
+          <audio id="mya13">
+            <source src="./Photo/sound-alphabet/m.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa14()"><img class="img-hover" src="./Photo/chu/14.png" width=100%></div>
+          <audio id="mya14">
+            <source src="./Photo/sound-alphabet/n.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa15()"><img class="img-hover" src="./Photo/chu/15.png" width=100%></div>
+          <audio id="mya15">
+            <source src="./Photo/sound-alphabet/o.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa16()"><img class="img-hover" src="./Photo/chu/16.png" width=100%></div>
+          <audio id="mya16">
+            <source src="./Photo/sound-alphabet/p.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <br>
+        <div class="row">
+
+          <div class="col-sm-3" onclick="playa17()"><img class="img-hover" src="./Photo/chu/17.png" width=100%></div>
+          <audio id="mya17">
+            <source src="./Photo/sound-alphabet/q.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa18()"><img class="img-hover" src="./Photo/chu/18.png" width=100%></div>
+          <audio id="mya18">
+            <source src="./Photo/sound-alphabet/r.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa19()"><img class="img-hover" src="./Photo/chu/19.png" width=100%></div>
+          <audio id="mya19">
+            <source src="./Photo/sound-alphabet/s.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa20()"><img class="img-hover" src="./Photo/chu/20.png" width=100%></div>
+          <audio id="mya20">
+            <source src="./Photo/sound-alphabet/t.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <br>
+        <div class="row">
+
+          <div class="col-sm-3" onclick="playa21()"><img class="img-hover" src="./Photo/chu/21.png" width=100%></div>
+          <audio id="mya21">
+            <source src="./Photo/sound-alphabet/u.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa22()"><img class="img-hover" src="./Photo/chu/22.png" width=100%></div>
+          <audio id="mya22">
+            <source src="./Photo/sound-alphabet/v.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa23()"><img class="img-hover" src="./Photo/chu/23.png" width=100%></div>
+          <audio id="mya23">
+            <source src="./Photo/sound-alphabet/w.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa24()"><img class="img-hover" src="./Photo/chu/24.png" width=100%></div>
+          <audio id="mya24">
+            <source src="./Photo/sound-alphabet/x.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+
+        <br>
+        <div class="row">
+          <div class="col-sm-3" onclick="playa25()"><img class="img-hover" src="./Photo/chu/25.png" width=100%></div>
+          <audio id="mya25">
+            <source src="./Photo/sound-alphabet/y.mp3" type="audio/mpeg">
+          </audio>
+
+          <div class="col-sm-3" onclick="playa26()"><img class="img-hover" src="./Photo/chu/26.png" width=100%></div>
+          <audio id="mya26">
+            <source src="./Photo/sound-alphabet/z.mp3" type="audio/mpeg">
+          </audio>
+
+        </div>
+        <br>
+      </div>
+      <div id="number" class="tab-pane fade">
+
+        <div class="row">
+
+          <div class="col-sm-3" onclick="playn1()">
+            <img src="Photo/1.png" alt="" width="100%">
+            <audio id="myn1">
+              <source src="./Photo/sound-alphabet/1.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="col-sm-3" onclick="playn2()">
+            <img src="Photo/2.png" alt="" width="100%">
+            <audio id="myn2">
+              <source src="./Photo/sound-alphabet/2.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="col-sm-3" onclick="playn3()">
+            <img src="Photo/3.png" alt="" width="100%">
+            <audio id="myn3">
+              <source src="./Photo/sound-alphabet/3.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="col-sm-3" onclick="playn4()">
+            <img src="Photo/4.png" alt="" width="100%">
+            <audio id="myn4">
+              <source src="./Photo/sound-alphabet/4.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+        </div>
+<br/>
+        <div class="row">
+
+          <div class="col-sm-3" onclick="playn5()">
+            <img src="Photo/5.png" alt="" width="100%">
+            <audio id="myn5">
+              <source src="./Photo/sound-alphabet/5.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="col-sm-3" onclick="playn6()">
+            <img src="Photo/6.png" alt="" width="100%">
+            <audio id="myn6">
+              <source src="./Photo/sound-alphabet/6.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="col-sm-3" onclick="playn7()">
+            <img src="Photo/7.png" alt="" width="100%">
+            <audio id="myn7">
+              <source src="./Photo/sound-alphabet/7.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="col-sm-3" onclick="playn8()">
+            <img src="Photo/8.png" alt="" width="100%">
+            <audio id="myn8">
+              <source src="./Photo/sound-alphabet/8.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+        </div>
+<br/>
+        <div class="row">
+          <div class="col-sm-3">
+            
+          </div>
+
+          <div class="col-sm-3" onclick="playn9()">
+            <img src="Photo/9.png" alt="" width="100%">
+            <audio id="myn9">
+              <source src="./Photo/sound-alphabet/9.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="col-sm-3" onclick="playn10()">
+            <img src="Photo/10.png" alt="" width="100%">
+            <audio id="myn10">
+              <source src="./Photo/sound-alphabet/10.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div class="col-sm-3">
+            
+          </div>
+
+        </div>
+<br/>
+      </div>
     </div>
-    <br>
-    <div class="row">
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/D.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/E.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/F.jpg" width=100%></div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/G.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/H.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/I.jpg" width=100%></div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/J.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/K.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/L.jpg" width=100%></div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/M.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/N.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/O.jpg" width=100%></div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/P.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/Q.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/R.jpg" width=100%></div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/S.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/T.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/U.jpg" width=100%></div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/V.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/W.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/X.jpg" width=100%></div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/Y.jpg" width=100%></div>
-      <div class="col-sm-4"><img class="img-hover" src="./Photo/Z.jpg" width=100%></div>
-    </div>
-    <br>
   </div>
 </div>
 <br/>
@@ -160,4 +364,5 @@
 </div>
 </body>
   <script src="JS/kids-Zone.js"></script>
+  <script src="JS/alphabet-page.js"></script>
 </html>

@@ -17,6 +17,13 @@
     .main-navbar {
      padding: 0;
     }
+
+    #myNavbar b, #myNavbar br {
+        display: none;
+    }
+    .navbar-default .navbar-nav > li > a {
+        text-align: left;
+    }
 }
  .parallax-window {
      min-height: 400px;
@@ -382,17 +389,10 @@ h4 {
      font-size: 9.5px;
      font-style: italic;
 }
-/*Animal Page*/
+
  .title {
      text-align: center;
      font-size: 400%;
-}
-
- .img-hover {
-     transition: 0.5s;
-     border-radius: 6px;
-     border: 1px solid black;
-     box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
 }
 
 
@@ -445,20 +445,9 @@ h4 {
 /*Vegetable Page*/
 
 
-.img-hover:hover {
-  -webkit-transform:scale(1.17);
-  -moz-transform:scale(1.17);
-  -ms-transform:scale(1.17);
-  -o-transform:scale(1.17);
-  transform:scale(1.17);
-  transition: 0.5s;
-}
 
-.img-hover {
-  border-radius: 6px;
-  border: 1px solid black;
-  box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
-}
+
+
 .panel-heading{
      height: 50px;
      text-align: center;
