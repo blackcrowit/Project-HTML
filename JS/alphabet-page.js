@@ -194,3 +194,13 @@ var n10 = document.getElementById("myn10");
 function playn10() {
     n10.play();
 }
+
+function number() {
+    document.getElementById('logo-word').src ='Photo/logo-number.png';
+    document.getElementById('logo-word').style.width = '60%';
+}
+
+function alphabet() {
+    document.getElementById('logo-word').src ='Photo/logo-alphabet.png';
+    document.getElementById('logo-word').style.width = '65%';
+}

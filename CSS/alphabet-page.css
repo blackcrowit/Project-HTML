@@ -14,7 +14,10 @@
 }
 */
 #number img {
-	transition: .5s;
+	-webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 	border: 1px solid black;
 	border-radius: 8%;
 }
@@ -22,10 +25,13 @@
 
  .img-hover {
  	background-color: white;
-     transition: 0.5s;
-     border-radius: 8%;
-     border: 1px solid black;
-     box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
+   -webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+   border-radius: 8%;
+   border: 1px solid black;
+   box-shadow: 0 4px 0 rgba(0.1,0.1,0.1,.1);
 }
 
 .img-hover:hover {
@@ -56,4 +62,12 @@
     	width: 50%;
     	margin-bottom: 20px;
     }
+}
+
+#logo-number. #logo-alphabet {
+  transition: 0.5s;
+}
+
+#logo-number {
+  display: none;
 }

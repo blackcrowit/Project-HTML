@@ -1,8 +1,15 @@
 .pencil {
-	transition: .6s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
 }
 
 .pencil:hover, .pencil:focus {
+	-webkit-transform: rotate(-25deg);
+	-moz-transform: rotate(-25deg);
+	-ms-transform: rotate(-25deg);
+	-o-transform: rotate(-25deg);
 	transform: rotate(-25deg);
 	cursor: pointer;
 }
@@ -58,9 +65,22 @@
 	text-align: center;
 	font-size: 200%;
 	font-weight: bold;
-	transition: .6s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
 }
 
 .list-img img {
 	padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+	.col-sm-2 img {
+		width: 40%;
+	}
+	.col-sm-2 {
+		text-align: center;
+		
+	}
 }

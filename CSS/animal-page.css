@@ -1,7 +1,10 @@
 
 .container-animal {
   position: relative;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
 }
 
 .image-animal {
@@ -19,7 +22,10 @@
   overflow: hidden;
   width: 100%;
   height:0;
-  transition: .5s ease;
+  -webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
 }
 
 .container-animal:hover .overlay-animal {
@@ -33,8 +39,11 @@
   position: absolute;
   top: 25%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-o-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -43,6 +52,22 @@
 		bottom: 0;
 		height: 100%;
 	}
+  .col-sm-12 img {
+    display: none;
+  }
+  .col-sm-4 img {
+    width: 40%;
+    border-radius: 8%;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .col-sm-4 {
+    margin-bottom: 30px;
+  }
+  .col-sm-12 {
+    margin-bottom: 30px;
+  }
+
 }
 /*
 .text-animal div {

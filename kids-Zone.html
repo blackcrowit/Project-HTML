@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="CSS/kids-Zone.css">
-  <script src="JS/kids-Zone.js"></script>
+
 </head>
 <body style="background-image: none;">
 
@@ -92,7 +92,7 @@
 
 <!-- Banner -->
 <div> 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 100%">
     <div class="carousel-inner">
       <div class="item active">
         <img src="Photo/banner-04.jpg" alt="banner-1" style="width:100%;">
@@ -226,6 +226,11 @@
       <img src="Photo/hdg-01.png" alt="">  
     </div>
 <br/><br/>
+  <div class="box-dialog"  id="myBox">
+    <span class="box-close">&times;</span>
+    <img class="box-content" id="img01">
+    <div id="caption" class="box-caption"></div>
+  </div>
 <div class="carousel slide" id="myCarousel1">
     <div class="carousel-inner">
         <div class="item active">
@@ -233,33 +238,30 @@
                 <li class="col-sm-4">
                     <div class="fff">
                         <div class="thumbnail">
-                            <a href="#"><img src="Photo/gallery-01.jpg" alt=""></a>
-                            <h4>Praesent commodo</h4>
-                            <p>Nullam Condimentum Nibh Etiam Sem</p>
+                            <img src="Photo/gallery-01.jpg" alt="Learn Logic" id="myImg1" onClick="reply_click(this.id)">
+                            <h4>Learn Logic</h4>
                             <b></b>
-                            <a class="btn btn-mini" href="#">» Read More</a>
+                            <!-- <a class="btn btn-mini" href="#">» Read More</a> -->
                         </div>
                     </div>
                 </li>
                 <li class="col-sm-4">
                     <div class="fff">
                         <div class="thumbnail">
-                            <a href="#"><img src="Photo/gallery-02.jpg" alt=""></a>
-                            <h4>Praesent commodo</h4>
-                            <p>Nullam Condimentum Nibh Etiam Sem</p>
+                            <img src="Photo/gallery-02.jpg" alt="Learn To Draw" id="myImg2" onClick="reply_click(this.id)">
+                            <h4>Learn To Draw</h4>
                             <b></b>
-                            <a class="btn btn-mini" href="#">» Read More</a>
+                            <!-- <a class="btn btn-mini" href="#">» Read More</a> -->
                         </div>
                     </div>
                 </li>
                 <li class="col-sm-4">
                     <div class="fff">
                         <div class="thumbnail">
-                            <a href="#"><img src="Photo/gallery-03.jpg" alt=""></a>
-                            <h4>Praesent commodo</h4>
-                            <p>Nullam Condimentum Nibh Etiam Sem</p>
+                            <img src="Photo/gallery-03.jpg" alt="Learn To Write" id="myImg3" onClick="reply_click(this.id)">
+                            <h4>Learn To Write</h4>
                             <b></b>
-                            <a class="btn btn-mini" href="#">» Read More</a>
+                            <!-- <a class="btn btn-mini" href="#">» Read More</a> -->
                         </div>
                     </div>
                 </li>
@@ -271,33 +273,30 @@
                 <li class="col-sm-4">
                     <div class="fff">
                         <div class="thumbnail">
-                            <a href="#"><img src="Photo/gallery-04.jpg" alt=""></a>
-                            <h4>Praesent commodo</h4>
-                            <p>Nullam Condimentum Nibh Etiam Sem</p>
+                            <img src="Photo/gallery-04.jpg" alt="Learn Math" id="myImg4" onClick="reply_click(this.id)">
+                            <h4>Learn Math</h4>
                             <b></b>
-                            <a class="btn btn-mini" href="#">» Read More</a>
+                            <!-- <a class="btn btn-mini" href="#">» Read More</a> -->
                         </div>
                     </div>
                 </li>
                 <li class="col-sm-4">
                     <div class="fff">
                         <div class="thumbnail">
-                            <a href="#"><img src="Photo/gallery-05.jpg" alt=""></a>
-                            <h4>Praesent commodo</h4>
-                            <p>Nullam Condimentum Nibh Etiam Sem</p>
+                            <img src="Photo/gallery-05.jpg" alt="Go To Picnic" id="myImg5" onClick="reply_click(this.id)">
+                            <h4>Go To Picnic</h4>
                             <b></b>
-                            <a class="btn btn-mini" href="#">» Read More</a>
+                            <!-- <a class="btn btn-mini" href="#">» Read More</a> -->
                         </div>
                     </div>
                 </li>
                 <li class="col-sm-4">
                     <div class="fff">
                         <div class="thumbnail">
-                            <a href="#"><img src="Photo/gallery-06.jpg" alt=""></a>
-                            <h4>Praesent commodo</h4>
-                            <p>Nullam Condimentum Nibh Etiam Sem</p>
+                            <img src="Photo/gallery-06.jpg" alt="Free Drawing" id="myImg6" onClick="reply_click(this.id)">
+                            <h4>Free Drawing</h4>
                             <b></b>
-                            <a class="btn btn-mini" href="#">» Read More</a>
+                            <!-- <a class="btn btn-mini" href="#">» Read More</a> -->
                         </div>
                     </div>
                 </li>
@@ -391,28 +390,28 @@
     <br/>
     <div>
       <a class="col-sm-3 game-hover" href="http://learnenglishkids.britishcouncil.org/en/games/abc-countdown" target="_blank">
-              <img src="Photo/game-01.png" alt="" width="100%">
+              <img src="Photo/game-01.png" alt="">
               <div class="overlay-game">               
                 <div class="text-game">ABC Countdown</div>
               </div>
       </a>
 
       <a class="col-sm-3 game-hover" href="http://learnenglishkids.britishcouncil.org/en/games/secret-coder" target="_blank">
-              <img src="Photo/game-02.png" alt="" width="100%">
+              <img src="Photo/game-02.png" alt="">
               <div class="overlay-game">               
                 <div class="text-game">Secret Coder</div>
               </div>
       </a>
 
       <a class="col-sm-3 game-hover" href="http://learnenglishkids.britishcouncil.org/en/games/sounds-fun" target="_blank">
-              <img src="Photo/game-03.png" alt="" width="100%">
+              <img src="Photo/game-03.png" alt="">
               <div class="overlay-game">               
                 <div class="text-game">Sounds Fun</div>
               </div>
       </a>
 
       <a class="col-sm-3 game-hover" href="http://learnenglishkids.britishcouncil.org/en/games/wordshake" target="_blank">
-              <img src="Photo/game-04.png" alt="" width="100%">
+              <img src="Photo/game-04.png" alt="">
               <div class="overlay-game">               
                 <div class="text-game">Word Shake</div>
               </div>
@@ -456,5 +455,5 @@
     <div class='scroll icon'><i class="fa fa-arrow-up "></i></div>
 </div>
 </body>
-  
+    <script src="JS/kids-Zone.js"></script>
 </html>
