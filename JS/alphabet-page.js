@@ -1,19 +1,13 @@
 
-// for (var i = 0; i <= 26; i++;) {
-// 	a[i] = document.getElementById("myq"+i);
-// 	function playai() {
-// 	    a[i].play();
-// 	}	    
-// }
+function number() {
+    document.getElementById('logo-word').src ='Photo/logo-number.png';
+    document.getElementById('logo-word').style.width = '60%';
+}
 
-// let a = [];
-// for (i=0; i < 10; i++) {
-//   let qi = document.getElementById('myq' + i);
-//   let handle = function() {
-//     qi.play();
-//   }
-//   a.push({qi, handle})
-// }
+function alphabet() {
+    document.getElementById('logo-word').src ='Photo/logo-alphabet.png';
+    document.getElementById('logo-word').style.width = '65%';
+}
 
 var a1 = document.getElementById("mya1");
 function playa1() {
@@ -193,14 +187,4 @@ function playn9() {
 var n10 = document.getElementById("myn10");
 function playn10() {
     n10.play();
-}
-
-function number() {
-    document.getElementById('logo-word').src ='Photo/logo-number.png';
-    document.getElementById('logo-word').style.width = '60%';
-}
-
-function alphabet() {
-    document.getElementById('logo-word').src ='Photo/logo-alphabet.png';
-    document.getElementById('logo-word').style.width = '65%';
 }

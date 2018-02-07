@@ -19,7 +19,7 @@ window.onscroll = function() {myFunction()};
 
 function myFunction() {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        document.getElementById("main-navbar").className = "navbar navbar-default navbar-fixed-top box-shadow test";
+        document.getElementById("main-navbar").className = "navbar navbar-default navbar-fixed-top box-shadow padding-menu";
     } else {
         document.getElementById("main-navbar").className = "navbar navbar-default navbar-fixed-top box-shadow";
     }
