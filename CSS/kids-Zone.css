@@ -346,6 +346,7 @@ transition: 0.5s;
 left: 0;
 background-color: green;
 }
+
 .thumbnails li:hover b {
 width: 100%;
 }

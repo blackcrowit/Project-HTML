@@ -6,7 +6,7 @@ function playTiger() {
 var camel = document.getElementById("myCamel"); 
 function playCamel() { 
     camel.play(); 
-}
+} 
 
 var bear = document.getElementById("myBear"); 
 function playBear() { 
