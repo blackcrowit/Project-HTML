@@ -235,10 +235,10 @@ color: #963;
 padding: -15px 15px 0 15px;
 text-align: center;
 }
-.row#item {
+#item {
 margin-top: -50px;
 }
-.row#item .item-icon {
+#item .item-icon {
 text-align: center;
 font-size: 30px;
 border-radius: 100%;
@@ -248,33 +248,33 @@ border: 6px solid;
 color: #666;
 background-color: white;
 }
-.row#item .item-icon#item-icon-1,
-.row#item .item-icon#item-icon-2,
-.row#item .item-icon#item-icon-3 {
+#item .item-icon#item-icon-1,
+#item .item-icon#item-icon-2,
+#item .item-icon#item-icon-3 {
 -webkit-transition: color 0.5s linear;
 -moz-transition: color 0.5s linear;
 -o-transition: color 0.5s linear;
 transition: color 0.5s linear;
 }
-.row#item .item-icon#item-icon-1 {
+#item .item-icon#item-icon-1 {
 border-color: #f0c24b;
 }
-.row#item a:hover .item-icon#item-icon-1 {
+#item a:hover .item-icon#item-icon-1 {
 color: #f0c24b;
 }
-.row#item .item-icon#item-icon-2 {
+#item .item-icon#item-icon-2 {
 border-color: #b5d56a;
 }
-.row#item a:hover .item-icon#item-icon-2 {
+#item a:hover .item-icon#item-icon-2 {
 color: #b5d56a;
 }
-.row#item .item-icon#item-icon-3 {
+#item .item-icon#item-icon-3 {
 border-color: #ea7066;
 }
-.row#item a:hover .item-icon#item-icon-3 {
+#item a:hover .item-icon#item-icon-3 {
 color: #ea7066;
 }
-.row#item .item-text {
+#item .item-text {
 font-size: 32px;
 color: white;
 line-height: 150px;
@@ -283,16 +283,16 @@ border-radius: 10px;
 text-align: center;
 margin-top: -50px;
 }
-.row#item a:hover, .row#item a:active, .row#item a:focus {
+#item a:hover, #item a:active, #item a:focus {
 text-decoration:none;
 }
-.row#item a .box-shadow{
+#item a .box-shadow{
 -webkit-transition: box-shadow 0.5s linear;
 -moz-transition: box-shadow 0.5s linear;
 -o-transition: box-shadow 0.5s linear;
 transition: box-shadow 0.5s linear;
 }
-.row#item a:hover .box-shadow {
+#item a:hover .box-shadow {
 box-shadow: 0 4px 0 rgba(0,0,0,.2);
 }
 #btn-down {
@@ -303,7 +303,7 @@ color: transparent;
 -o-transition: color 0.5s linear;
 transition: color 0.5s linear;
 }
-.row#item a:hover #btn-down {
+#item a:hover #btn-down {
 color: #666;
 }
 .header-text {
